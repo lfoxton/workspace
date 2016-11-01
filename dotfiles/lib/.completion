@@ -1,3 +1,6 @@
+#################################################
+# DO NOT EDIT, instead use workspace/install.sh #
+#################################################
 
 # Completions
 complete -C $HOME/.completion_scripts/rake_completion -o default rake

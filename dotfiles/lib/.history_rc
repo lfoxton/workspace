@@ -1,3 +1,7 @@
+#################################################
+# DO NOT EDIT, instead use workspace/install.sh #
+#################################################
+
 # Better history
 export HISTCONTROL="ignoreboth"
 export HISTIGNORE="ls:h:exit:cd"

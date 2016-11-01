@@ -1,4 +1,8 @@
-## command shortcuts
+#################################################
+# DO NOT EDIT, instead use workspace/install.sh #
+#################################################
+
+# command shortcuts
 alias mv='mv -i'
 alias cp='cp -i'
 alias h=history

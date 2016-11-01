@@ -1,3 +1,7 @@
+#################################################
+# DO NOT EDIT, instead use workspace/install.sh #
+#################################################
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"

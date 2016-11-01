@@ -1,3 +1,7 @@
+#################################################
+# DO NOT EDIT, instead use workspace/install.sh #
+#################################################
+
 # Settings
 export CVSROOT=export CVSROOT=:ext:lfoxton@cvs.siteminder.com.au:/home/cvs/repositories/siteminder
 export SITEMINDER_INSTALLATION_ID=development
