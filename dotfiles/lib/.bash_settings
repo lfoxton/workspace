@@ -1,0 +1,6 @@
+# Settings
+export CVSROOT=export CVSROOT=:ext:lfoxton@cvs.siteminder.com.au:/home/cvs/repositories/siteminder
+export SITEMINDER_INSTALLATION_ID=development
+export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;33'
+export PS1='\[\e[33;40m\]\w \[\e[35;40m\]$(__git_ps1 "[%s]")\[\e[33;1m\]> \[\e[0m\]'

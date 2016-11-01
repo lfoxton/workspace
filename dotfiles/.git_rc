@@ -1,0 +1,19 @@
+. ~/.git-completion.bash
+export GIT_PS1_SHOWDIRTYSTATE=y
+export GIT_PS1_SHOWSTASHSTATE=y
+export GIT_PS1_SHOWUNTRACKEDFILES=y
+export GIT_PS1_SHOWUPSTREAM="auto verbose"
+
+alias gg='git lg'
+alias gf='git fetch'
+alias gka='gitk --all'
+function ga() { git add "$@" ;}
+function gb() { git branch "$@" ;}
+function gc() { git commit "$@" ;}
+function gd() { git diff "$@" ;}
+function gl() { git pull "$@" ;}
+function gp() { git push "$@" ;}
+function gs() { git status "$@" ;}
+function gh() { git log "$@" ;}
+alias gout='git log origin/master..master'
+alias gin='git log master..origin/master'

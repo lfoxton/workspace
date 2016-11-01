@@ -1,0 +1,6 @@
+## command shortcuts
+alias mv='mv -i'
+alias cp='cp -i'
+alias h=history
+alias dir='ls -l'
+alias ls='ls -aF'

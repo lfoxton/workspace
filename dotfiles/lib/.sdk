@@ -1,0 +1,10 @@
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+# grails
+alias testreport="open target/test-reports/html/index.html"
+
+# Java
+alias jvm7="export JAVA_HOME=`/usr/libexec/java_home -v 1.7`; java -version"
+alias jvm8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
