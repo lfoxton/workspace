@@ -2,7 +2,7 @@
 # DO NOT EDIT, instead use workspace/install.sh #
 #################################################
 
-. ~/.git-completion.bash
+. ~/.completion_scripts/git-completion.bash
 export GIT_PS1_SHOWDIRTYSTATE=y
 export GIT_PS1_SHOWSTASHSTATE=y
 export GIT_PS1_SHOWUNTRACKEDFILES=y
