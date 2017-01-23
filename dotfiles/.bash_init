@@ -31,5 +31,4 @@ source $BASH_LIB/.sdk
 source lib/.specifics
 
 # Console print
-echo "Hello Luke you handsom devil you"
-java -version
+echo "Hello Luke you handsome devil you"

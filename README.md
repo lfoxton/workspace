@@ -13,4 +13,4 @@
 
 After installing software from env.txt, run ./install.sh
 
-Can run ./instanll.sh at any time to update
+Can run ./install.sh at any time to update
