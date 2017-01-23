@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Copy files
-cp -r completion_scripts $HOME/.completion_scripts
-cp -r dotfiles/lib $HOME/.bash_lib
-cp dotfiles/.bash_init $HOME
-cp .inputrc $HOME
+cp -rf completion_scripts $HOME/.completion_scripts
+cp -rf dotfiles/lib $HOME/.bash_lib
+cp -f  dotfiles/.bash_init $HOME
+cp -f  .inputrc $HOME
 
 # Insert into bash_profile
 if grep -q "source $HOME/.bash_init" "$HOME/.bash_profile"; then
