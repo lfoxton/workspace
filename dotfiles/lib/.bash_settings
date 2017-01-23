@@ -7,4 +7,9 @@ export CVSROOT=export CVSROOT=:ext:lfoxton@cvs.siteminder.com.au:/home/cvs/repos
 export SITEMINDER_INSTALLATION_ID=development
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;33'
-export PS1='[\u@\h:\w] \[\e[33;40m\]\w \[\e[35;40m\]$(__git_ps1 "[%s]")\[\e[33;1m\]> \[\e[0m\]'
+
+# PS1 for remote for remote
+#export PS1='\[\e[32;40m\]\! [$(date "+%H:%M")] \u@\h:\[\e[33;40m\]\w \[\e[34;1m\]$(__git_ps1 "(%s) ")\[\e[33;1m\]\$ \[\e[0m\]'
+
+# PS1 for local dev env
+export PS1='\[\e[33;40m\][$(date "+%H:%M")] \w \[\e[35;40m\]$(__git_ps1 "[%s]")\[\e[33;1m\]> \[\e[0m\]'
