@@ -25,10 +25,10 @@ source $BASH_LIB/.history_rc
 source $BASH_LIB/.git_rc
 
 # SDK settings java/grails/node/ruby/etc
-source $BASH_LIB/.sdk
+# source $BASH_LIB/.sdk
 
 # This is where i put organisation specific settings
-source lib/.specifics
+# source lib/.specifics
 
 # Console print
 echo "Hello Luke you handsome devil you"
